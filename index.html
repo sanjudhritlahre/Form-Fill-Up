@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" class="container" name="StudentRegistrationForm" onsubmit="return(validate());">
+        <table class="tab">
+            <tr>
+                <th id="title" class="form-title" colspan=2>
+                    <center>
+                        <b>!! Student Registration Form !!</b>
+                    </center>
+                </th>
+            </tr>
+
+            <tbody>
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="textnames" class="textname"></td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" name="textnames" class="textname"></td>
+                </tr>
+                <tr>
+                    <td>Father Name :</td>
+                    <td><input type="text" name="textnames" id="fatherName" class="textName"></td>
+                </tr>
+                <tr>
+                    <td>Mother Name :</td>
+                    <td><input type="text" name="textnames" id="motherName" class="textName"></td>
+                </tr>
+                <tr>
+                    <td>Postal Address :</td>
+                    <td><input type="text" name="textnames" id="postAddress" class="textName"></td>
+                </tr>
+                <tr>
+                    <td>Personal Address :</td>
+                    <td><input type="text" name="textnames" id="persAddress"></td>
+                </tr>
+                <tr>
+                    <td>Sex :</td>
+                    <td>
+                        <div>
+                            <input type="radio" name="sex" id="Male" value="Male"> <b>Male</b>
+                            <input type="radio" name="sex" id="Female" value="Female"> <b>Female</b>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Your City :</td>
+                    <td>
+                        <select name="city" id="select-City" class="state-selector">
+                            <option value="None-Selection" selected>Select...</option>
+                            <option value="NEW DELHI">New Delhi</option>
+                            <option value="MUMBAI">Mumbai</option>
+                            <option value="GOA">Goa</option>
+                            <option value="PATANA">Patana</option>
+                            <option value="ChhATISHGARH">Chhatishgarh</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Courses -->
+                <tr>
+                    <td>Your Course :</td>
+                    <td>
+                        <select name="Courses" id="Syllabus" class="Subjects">
+                            <option value="None-Courses">Choose One..</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="MCA">MCA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="DCA">DCA</option>
+                            <option value="PGDCA">PGDCA</option>
+                            <option value="B.sc">B.sc</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Districts -->
+                <tr>
+                    <td>Your District :</td>
+                    <td>
+                        <select name="Districts" id="District-Name" class="Distric-Name">
+                            <option value="None-Distric">Select Now...</option>
+                            <option value="Raipur">Raipur</option>
+                            <option value="Bilashpur">Bilashpur</option>
+                            <option value="New Raipur">New Raipur</option>
+                            <option value="UP">UP</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Patana">Patana</option>
+                            <option value="Nalanda">Nalanda</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- States -->
+                <tr>
+                    <td>Your State :</td>
+                    <td>
+                        <select name="States" id="State-Name" class="States-Name">
+                            <option value="None-State">Select State</option>
+                            <option value="Chhatishgarh">Chhatishgarh</option>
+                            <option value="Utterpradesh">Utterpradesh</option>
+                            <option value="Keral">Keral</option>
+                            <option value="Haidrabad">Haidrabad</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="New Delhi">New Delhi</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Pin Code -->
+                <tr>
+                    <td>Pin Code :</td>
+                    <td><input type="number" name="Pin-Code" id="pincode" class="pin-code"></td>
+                </tr>
+
+                <!-- Email - ID -->
+                <tr>
+                    <td>Email - ID</td>
+                    <td><input type="text" name="email-id" id="eamail" class="email-ID"></td>
+                </tr>
+
+                <!-- Date Of Birth -->
+                <tr>
+                    <td>Date Of Birth :</td>
+                    <td><input type="text" name="DOB" id="dob" class="date-of-birth"></td>
+                </tr>
+
+                <!-- Mobile Number -->
+                <tr>
+                    <td>Mobile Number: </td>
+                    <td> <input type="text" name="Mobile-NO" id="mobileNO" class="mobile-num"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="btn">
+            <input id="bt1" class="reset-btn" type="reset">
+            <input class="submit-btn" type="submit" value="Submit Forms">
+        </div>
+    </form>
+
+</body>
+
+</html>
