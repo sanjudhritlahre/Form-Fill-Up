@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 25px;
+}
+
+form {
+    background-image: url(/gradient-3d-podium-background_23-2149167332.webp);
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(255, 0, 0, 0.2);    ;
+}
+
+.tab {
+    outline: none;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input {
+    size: 30px;
+    padding: 3px;
+    justify-content: space-between;
+    margin: 3px;
+    background-color: rgb(236, 233, 233);
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease 1ms;
+}
+
+input:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid #00ff15;
+}
+
+select, option {
+    margin: 4px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: #eeeeeb;
+}
+
+
+#btn1 {
+    background: pink;
+    color: #fff;
+    padding: 5px;
+}
+
+
+
+
